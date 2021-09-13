@@ -1,15 +1,28 @@
 ion-slides {
+  height: 100%;
+  img {
+    border-radius: 20px;
+    height: 400px;
+  }
+}
+
+@media (max-width: 768px) {
+  ion-slides {
     height: 100%;
-    img { border-radius: 20px;}
+    img {
+      border-radius: 20px;
+      height: 200px;
+    }
+  }
 }
 
-ion-slide{
-    text-align: justify;
-    padding-left: 10px;
-    padding-right: 10px;
+ion-slide {
+  text-align: justify;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
-ion-slide h1{
-    text-align: center;
-    vertical-align: 0%;
+ion-slide h1 {
+  text-align: center;
+  vertical-align: 0%;
 }
